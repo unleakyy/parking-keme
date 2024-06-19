@@ -62,11 +62,11 @@ function removeCar(parent, floor) {
 
 
 function updateData() {
-    text5.textContent = `Vacant: ${fifthFloor.vacant} // Excess: ${fifthFloor.extra}`;
-    text4.textContent = `Vacant: ${fourthFloor.vacant} // Excess: ${fourthFloor.extra}`;
-    text3.textContent = `Vacant: ${thirdFloor.vacant} // Excess: ${thirdFloor.extra}`;
-    text2.textContent = `Vacant: ${secondFloor.vacant} // Excess: ${secondFloor.extra}`;
-    text1.textContent = `Vacant: ${firstFloor.vacant} // Excess: ${firstFloor.extra}`;
+    text5.textContent = `Vacant: ${fifthFloor.vacant} // Passing Car: ${fifthFloor.extra}`;
+    text4.textContent = `Vacant: ${fourthFloor.vacant} // Passing Car: ${fourthFloor.extra}`;
+    text3.textContent = `Vacant: ${thirdFloor.vacant} // Passing Car: ${thirdFloor.extra}`;
+    text2.textContent = `Vacant: ${secondFloor.vacant} // Passing Car: ${secondFloor.extra}`;
+    text1.textContent = `Vacant: ${firstFloor.vacant} // Passing Car: ${firstFloor.extra}`;
 };
 updateData();
 
