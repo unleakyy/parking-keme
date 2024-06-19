@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.master {
+    width: 100vw;
+    height: 600px;
+    border: 2px solid green;
+    margin: auto;
+}
+
+.floor {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+}
+
+.car-container {
+    align-items: center;
+    padding-inline: 10px;
+    display: flex;
+    column-gap: 5px;
+}
+
+.button-container {
+    border: 2px solid blue;
+    padding: 10px;
+    row-gap: 10px;
+    min-width: 150px;
+    text-align: center;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding-block: 5px;
+    /* height: 50%; */
+    padding-inline: 10px;
+}
+
+.car {
+    background-color: red;
+    border-radius: 50%;
+    height: 30px;
+    width: 20px;
+}
+
+@media only screen and (min-width: 500px) {
+    .master {
+        width: 500px;
+    }
+
+    .car {
+        height: 50px;
+        width: 50px;
+    }
+}
