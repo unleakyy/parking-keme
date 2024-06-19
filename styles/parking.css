@@ -44,8 +44,8 @@ button {
 .car {
     background-color: red;
     border-radius: 50%;
-    height: 30px;
-    width: 20px;
+    height: 25px;
+    width: 10px;
 }
 
 @media only screen and (min-width: 500px) {
